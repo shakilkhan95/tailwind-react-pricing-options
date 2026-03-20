@@ -20,7 +20,7 @@ const Main = () => {
           }
         >
           <PricingOptions pricingDataPromise={pricingDataPromise}>
-            {" "}
+            
           </PricingOptions>
         </Suspense>
       </main>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Features = ({feat}) => {
     return (
-      <p className='flex items-center gap-3 mt-2.5'>
+      <p className='flex items-center gap-3'>
         <CircleCheckBig></CircleCheckBig>
         {feat}
       </p>

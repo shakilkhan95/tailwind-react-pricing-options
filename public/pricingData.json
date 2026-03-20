@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "price": 9,
+    "description": "Perfect for individuals and small projects just getting started.",
+    "features": [
+      "Up to 3 projects",
+      "5GB storage",
+      "Basic analytics",
+      "Email support",
+      "API access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 29,
+    "description": "Ideal for growing teams that need more power and flexibility.",
+    "features": [
+      "Unlimited projects",
+      "50GB storage",
+      "Advanced analytics",
+      "Priority email & chat support",
+      "API access",
+      "Custom integrations",
+      "Team collaboration tools"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": 99,
+    "description": "Built for large organizations requiring scale, security, and dedicated support.",
+    "features": [
+      "Unlimited projects",
+      "500GB storage",
+      "Full analytics suite",
+      "24/7 dedicated support",
+      "API access",
+      "Custom integrations",
+      "SSO & advanced security",
+      "SLA guarantee",
+      "Custom onboarding"
+    ]
+  }
+]

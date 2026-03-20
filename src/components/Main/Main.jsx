@@ -10,12 +10,18 @@ const Main = () => {
     const pricingDataPromise = fetchPricingData();
     
     return (
-      <main className='w-10/12 mx-auto mt-16'>
-        <h1 className='text-7xl'>Pricing Data cards</h1>
+      <main className="w-11/12 mx-auto mt-16">
+        <h1 className="text-7xl">Pricing Data cards</h1>
         <Suspense
-          fallback={<span class="loading loading-spinner loading-xl"></span>}
+          fallback={
+            <div className='flex justify-center py-40'>
+              <span class="loading loading-spinner loading-xl"></span>
+            </div>
+          }
         >
-          <PricingOptions pricingDataPromise={pricingDataPromise}> </PricingOptions>
+          <PricingOptions pricingDataPromise={pricingDataPromise}>
+            {" "}
+          </PricingOptions>
         </Suspense>
       </main>
     );
